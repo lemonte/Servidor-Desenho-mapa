@@ -1,0 +1,25 @@
+{
+  "name": "servidor_mapa",
+  "version": "1.0.0",
+  "description": "servidor para fazer as request no mapa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js --watch"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "keywords": [
+    "mapa",
+    "servidor"
+  ],
+  "author": "geandersonlemonte",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}
